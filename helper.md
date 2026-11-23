@@ -2,7 +2,7 @@
 
 **PolarSpark LLC** | **Paul Harding, MBA ITM** | [polarspark.com](https://polarspark.com/)
 
-Use this practical companion with [agent.md](agent.md), the [framework](docs/framework.md), and the [workbook](docs/templates.md). The agent helps implement EIF in the consumer organization's environment. This repository provides reference material and is not a destination for implementation files, organization data, or generated reports.
+Use this practical companion with [agents.md](agents.md), the [framework](docs/framework.md), and the [workbook](docs/templates.md). The agent helps implement EIF in the consumer organization's environment. This repository provides reference material and is not a destination for implementation files, organization data, or generated reports.
 
 ## Start an implementation
 
@@ -12,7 +12,7 @@ Give an agent the following instruction, replacing the bracketed fields. Read ac
 Use PolarSpark LLC's Engineering Impact Framework from:
 https://github.com/polarspark/engineering-impact-framework
 
-Read agent.md, helper.md, docs/framework.md, and docs/templates.md there.
+Read agents.md, helper.md, docs/framework.md, and docs/templates.md there.
 Resolve and record the framework revision before applying its definitions.
 
 Guide us through discovery, Baseline, Adoption, and Improvement. Help us

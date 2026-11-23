@@ -34,7 +34,7 @@ Keep delivery, quality, security, business outcomes, customer feedback where app
 
 ## Implement EIF with an agent
 
-Use [agent.md](agent.md) as the agent's implementation instructions and [helper.md](helper.md) for the starter prompt, intake questions, evidence contracts, calculation checks, and report structure. The agent guides an organization through gathering data, establishing Baseline, implementing an authorized Adoption, generating measures, and evaluating Improvements.
+Use [agents.md](agents.md) as the agent's implementation instructions and [helper.md](helper.md) for the starter prompt, intake questions, evidence contracts, calculation checks, and report structure. The agent guides an organization through gathering data, establishing Baseline, implementing an authorized Adoption, generating measures, and evaluating Improvements.
 
 Point the agent at this repository as a **read-only reference** and select a separate organization-controlled workspace for the implementation. No organization data, application changes, survey responses, or generated reports should be submitted to this framework repository. These files guide a consumer engagement; they do not grant permission to contribute or publish here.
 
