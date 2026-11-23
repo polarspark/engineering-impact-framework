@@ -1,18 +1,32 @@
-Paul Harding, MBA ITM
+<a href="https://polarspark.com/"><img src="../assets/brand/polar-spark-mark.png" width="70" alt="PolarSpark LLC company logo"></a>
 
-PolarSpark LLC
+**PolarSpark LLC**
 
-23 November 2026
+IMPLEMENTATION WORKBOOK
 
-# Engineering Impact Framework Templates
+# Engineering Impact Framework Workbook
 
-Reusable forms for the Engineering Impact Framework. Version 1.2, November 23 2026. Copy a fresh form for each initiative, sprint, assessment, or decision. Replace bracketed prompts with local records. Preserve earlier versions.
+Sprint scorecards and stakeholder feedback templates
+
+**Paul Harding, MBA ITM**
+
+PolarSpark LLC  |  [https://polarspark.com/](https://polarspark.com/)
+
+Version 1.3  |  23 November 2026
+
+Use this workbook to document a proposed change, establish a defensible baseline, close sprint observations, and reconcile costs and verified benefits. The records support decisions across Baseline, Adoption, and Improvement.
+
+Copy a fresh form for each initiative or reporting window. Keep stable metric definitions, evidence references, responsible owners, and unresolved findings. Use the companion white paper for the full metric catalogue, maturity rubric, and value recognition rules.
+
+**Included records** Adoption contract, metric definitions, three phase scorecards, role specific feedback, maturity assessment, AI risk record, value ledger, and evaluation decision.
+
+## Using this workbook
+
+Reusable forms for the Engineering Impact Framework. Version 1.3, November 23 2026. Copy a fresh form for each initiative, sprint, assessment, or decision. Replace bracketed prompts with local records. Preserve earlier versions.
 
 Metric IDs M01 to M28 refer to the definitions in the framework document. These are editable Word forms for manual completion. Calculations are not automated. Complete the numerator, denominator, sample, source, and period fields before interpreting a result.
 
-Table 1
-
-Engineering Impact Framework Templates
+**Table 1. Engineering Impact Framework Workbook**
 
 | **Template** | **Purpose** | **Phase** |
 | --- | --- | --- |
@@ -29,15 +43,15 @@ Engineering Impact Framework Templates
 | T11 | Cost and benefit ledger with value summary | All |
 | T12 | Evaluation decision and improvement action | All checkpoints |
 
-### **Completion rules**
+### Completion rules
 
 Use Not assessed until evidence is available. Distinguish zero, unavailable, provisional, and not applicable. A blank result never means a pass. Apply existing organizational security and release policies. Keep identifiable responses and sensitive technical evidence in their governed systems.
 
 Each scorecard should show the reporting window, data cutoff, intervention version, and sample coverage. Late acceptance, defects, and value verification may require a later revision. Retain a link to that revision in the original scorecard.
 
-These forms implement the companion *Engineering Impact Framework* (Harding). Their delivery concepts draw on DORA and Scrum (Harvey; Schwaber and Sutherland). Their maturity and AI risk records use the published NIST foundations while retaining local scoring and approval rules (Tabassi; "AI RMF Core").
+These forms implement the companion *Engineering Impact Framework* [17]. Their delivery concepts draw on DORA and Scrum [3, 5]. Their maturity and AI risk records use the published NIST foundations while retaining local scoring and approval rules [6, 7].
 
-## **Choosing and closing sprint records**
+## Choosing and closing sprint records
 
 Choose the scorecard and stakeholder feedback form that match the initiative phase. Shared records carry forward across phases so that risks, maturity evidence, and value claims remain traceable.
 
@@ -47,15 +61,15 @@ The relationship is illustrated in figure 1.
 
 Fig. 1. Phase specific forms feed shared evidence and the next accountable decision. Original framework diagram.
 
-### **Complete the record in the right order**
+### Complete the record in the right order
 
 Confirm the initiative version and metric definitions before the sprint. At sprint close, update the scorecard and feedback results, then reconcile the shared evidence. T12 records the permitted next step, accountable owner, conditions, and next checkpoint.
 
-### **Keep pending evidence visible**
+### Keep pending evidence visible
 
 Customer outcomes, later defects, and verified financial benefits may arrive after sprint close. Mark them pending or provisional and link the later update. Carry open actions into the next sprint instead of treating a completed form as proof that the outcome has been achieved.
 
-## **T01 Adoption contract**
+## T01 Adoption contract
 
 **Initiative ID and version** [Enter ID, version, owner, and date]
 
@@ -67,9 +81,7 @@ Customer outcomes, later defects, and verified financial benefits may arrive aft
 
 **Proposed change and hypothesis** [State the change, expected mechanism, eligible work, and affected people]
 
-Table 2
-
-T01 Adoption contract
+**Table 2. T01 Adoption contract**
 
 | **Required planning field** | **Local definition** |
 | --- | --- |
@@ -84,15 +96,13 @@ T01 Adoption contract
 
 **Local framework departures** [Record changed conventions and their effective dates]
 
-## **T01 Readiness and authorization record**
+## T01 Readiness and authorization record
 
 Complete before the affected adoption scope begins. Reuse this page when a material scope or permission change occurs. These are local organizational decision fields, not a NIST certification checklist.
 
 **Initiative and proposed scope** [Enter initiative version and permitted actions]
 
-Table 3
-
-T01 Readiness and authorization record
+**Table 3. T01 Readiness and authorization record**
 
 | **Readiness condition** | **Evidence and owner** | **Result** |
 | --- | --- | --- |
@@ -114,7 +124,7 @@ T01 Readiness and authorization record
 
 **Next review** [Enter date and triggering events]
 
-## **T02 Metric definition record**
+## T02 Metric definition record
 
 Copy one record per selected metric or local variant. Keep the prior definition when the meaning changes.
 
@@ -122,9 +132,7 @@ Copy one record per selected metric or local variant. Keep the prior definition 
 
 **Decision supported** [Explain what movement would cause the team to do]
 
-Table 4
-
-T02 Metric definition record
+**Table 4. T02 Metric definition record**
 
 | **Definition field** | **Local specification** |
 | --- | --- |
@@ -143,7 +151,7 @@ T02 Metric definition record
 
 **Known limitations** [Explain what the measure cannot establish]
 
-## **T03 Phase 1 baseline sprint scorecard**
+## T03 Phase 1 baseline sprint scorecard
 
 **Context** [Initiative and current-state version; team; service; sprint; owner]
 
@@ -153,9 +161,7 @@ T02 Metric definition record
 
 **Existing AI and other changes** [Record exposure yes no unknown and concurrent operational changes]
 
-Table 5
-
-T03 Phase 1 baseline sprint scorecard
+**Table 5. T03 Phase 1 baseline sprint scorecard**
 
 | **ID** | **Measure** | **Sprint value** | **Window value** | **N or n/d** | **Evidence** |
 | --- | --- | --- | --- | --- | --- |
@@ -168,9 +174,7 @@ T03 Phase 1 baseline sprint scorecard
 
 In Phase 1, record current cost and benefit boundaries in T11. M03 is not yet evaluated for the proposed change. Recompute window rates and percentiles from underlying records. N is sample count; n/d is numerator divided by denominator; p85 is the 85th percentile.
 
-Table 6
-
-T03 Phase 1 baseline sprint scorecard
+**Table 6. T03 Phase 1 baseline sprint scorecard**
 
 | **Required baseline evidence** | **Finding and next action** |
 | --- | --- |
@@ -183,7 +187,7 @@ T03 Phase 1 baseline sprint scorecard
 
 **Next action and checkpoint** [Action, accountable owner, due date, and evidence required]
 
-## **T04 Phase 2 adoption sprint scorecard**
+## T04 Phase 2 adoption sprint scorecard
 
 **Context** [Initiative and intervention version; service; team; sprint; owner]
 
@@ -191,9 +195,7 @@ T03 Phase 1 baseline sprint scorecard
 
 **Comparability** [Work mix; capacity; concurrent changes; comparison group; source snapshot and follow-up]
 
-Table 7
-
-T04 Phase 2 adoption sprint scorecard
+**Table 7. T04 Phase 2 adoption sprint scorecard**
 
 | **ID** | **Measure** | **Baseline** | **Post change** | **N or n/d** | **Change** |
 | --- | --- | --- | --- | --- | --- |
@@ -205,9 +207,7 @@ T04 Phase 2 adoption sprint scorecard
 
 **Comparison group and adjusted contrast** [Show baseline and post values; compute same-unit changes; state assumptions]
 
-Table 8
-
-T04 Phase 2 adoption sprint scorecard
+**Table 8. T04 Phase 2 adoption sprint scorecard**
 
 | **Guardrail** | **Limit** | **Observed and evidence** | **Result** |
 | --- | --- | --- | --- |
@@ -221,7 +221,7 @@ T04 Phase 2 adoption sprint scorecard
 
 State observed, provisional, or unavailable for each result. An evaluation decision is recorded in T12. Guardrail breaches receive immediate action under existing policy.
 
-## **T05 Phase 3 adjustment sprint scorecard**
+## T05 Phase 3 adjustment sprint scorecard
 
 **Context** [Initiative; original version; previous version; adjustment version; sprint; owner]
 
@@ -229,9 +229,7 @@ State observed, provisional, or unavailable for each result. An evaluation decis
 
 **Window and comparability** [Dates; cutoff; work mix; capacity; exposure; source snapshot; follow-up]
 
-Table 9
-
-T05 Phase 3 adjustment sprint scorecard
+**Table 9. T05 Phase 3 adjustment sprint scorecard**
 
 | **ID** | **Measure** | **Original** | **Previous** | **Adjusted** | **Marginal change** |
 | --- | --- | --- | --- | --- | --- |
@@ -253,7 +251,7 @@ T05 Phase 3 adjustment sprint scorecard
 
 Marginal improvement compares adjusted with previous state. Cumulative improvement compares adjusted with the original baseline. Retain failed adjustments and their costs.
 
-## **T06 Phase 1 baseline stakeholder feedback**
+## T06 Phase 1 baseline stakeholder feedback
 
 Copy this form for each respondent. Ask the four core questions consistently across phases for internal roles. Ask the relevant role question and use the open responses to explain the rating. Customers receive only applicable customer questions and follow-up, without internal productivity questions.
 
@@ -261,9 +259,7 @@ Copy this form for each respondent. Ask the four core questions consistently acr
 
 Agreement scale: 1 strongly disagree, 2 disagree, 3 neither agree nor disagree, 4 agree, 5 strongly agree. Use N/A when the respondent lacks relevant experience. Do not code N/A as a midpoint.
 
-Table 10
-
-T06 Phase 1 baseline stakeholder feedback
+**Table 10. T06 Phase 1 baseline stakeholder feedback**
 
 | **ID** | **Stable internal question** | **Response** |
 | --- | --- | --- |
@@ -272,9 +268,7 @@ T06 Phase 1 baseline stakeholder feedback
 | C3 | I can maintain the required quality within normal working hours. | [1-5 or N/A] |
 | C4 | Responsibilities and handoffs are clear. | [1-5 or N/A] |
 
-Table 11
-
-T06 Phase 1 baseline stakeholder feedback
+**Table 11. T06 Phase 1 baseline stakeholder feedback**
 
 | **Role** | **Phase specific question** | **Response** |
 | --- | --- | --- |
@@ -293,7 +287,7 @@ Report urgent risks through the existing incident channel immediately. Participa
 
 **Aggregator record** [Eligible and valid responses by role; N/A count; distribution; median; favorable share; themes; owner action]
 
-## **T07 Phase 2 adoption stakeholder feedback**
+## T07 Phase 2 adoption stakeholder feedback
 
 Copy this form for each respondent. Ask the four core questions consistently across phases for internal roles. Ask the relevant role question and use the open responses to explain the rating. Customers receive only applicable customer questions and follow-up, without internal productivity questions.
 
@@ -301,9 +295,7 @@ Copy this form for each respondent. Ask the four core questions consistently acr
 
 Agreement scale: 1 strongly disagree, 2 disagree, 3 neither agree nor disagree, 4 agree, 5 strongly agree. Use N/A when the respondent lacks relevant experience. Do not code N/A as a midpoint.
 
-Table 12
-
-T07 Phase 2 adoption stakeholder feedback
+**Table 12. T07 Phase 2 adoption stakeholder feedback**
 
 | **ID** | **Stable internal question** | **Response** |
 | --- | --- | --- |
@@ -312,9 +304,7 @@ T07 Phase 2 adoption stakeholder feedback
 | C3 | I can maintain the required quality within normal working hours. | [1-5 or N/A] |
 | C4 | Responsibilities and handoffs are clear. | [1-5 or N/A] |
 
-Table 13
-
-T07 Phase 2 adoption stakeholder feedback
+**Table 13. T07 Phase 2 adoption stakeholder feedback**
 
 | **Role** | **Phase specific question** | **Response** |
 | --- | --- | --- |
@@ -333,7 +323,7 @@ Report urgent risks through the existing incident channel immediately. Participa
 
 **Aggregator record** [Eligible and valid responses by role; N/A count; distribution; median; favorable share; themes; owner action]
 
-## **T08 Phase 3 adjustment stakeholder feedback**
+## T08 Phase 3 adjustment stakeholder feedback
 
 Copy this form for each respondent. Ask the four core questions consistently across phases for internal roles. Ask the relevant role question and use the open responses to explain the rating. Customers receive only applicable customer questions and follow-up, without internal productivity questions.
 
@@ -341,9 +331,7 @@ Copy this form for each respondent. Ask the four core questions consistently acr
 
 Agreement scale: 1 strongly disagree, 2 disagree, 3 neither agree nor disagree, 4 agree, 5 strongly agree. Use N/A when the respondent lacks relevant experience. Do not code N/A as a midpoint.
 
-Table 14
-
-T08 Phase 3 adjustment stakeholder feedback
+**Table 14. T08 Phase 3 adjustment stakeholder feedback**
 
 | **ID** | **Stable internal question** | **Response** |
 | --- | --- | --- |
@@ -352,9 +340,7 @@ T08 Phase 3 adjustment stakeholder feedback
 | C3 | I can maintain the required quality within normal working hours. | [1-5 or N/A] |
 | C4 | Responsibilities and handoffs are clear. | [1-5 or N/A] |
 
-Table 15
-
-T08 Phase 3 adjustment stakeholder feedback
+**Table 15. T08 Phase 3 adjustment stakeholder feedback**
 
 | **Role** | **Phase specific question** | **Response** |
 | --- | --- | --- |
@@ -373,17 +359,15 @@ Report urgent risks through the existing incident channel immediately. Participa
 
 **Aggregator record** [Eligible and valid responses by role; N/A count; distribution; median; favorable share; themes; owner action]
 
-## **T09 SDLC and documentation assessment**
+## T09 SDLC and documentation assessment
 
 **Assessment context** [Initiative; service; phase; dates; assessor; owners; evidence window]
 
-The domain references are ISO/IEC/IEEE 12207:2026 and 15289:2019 (*ISO/IEC/IEEE 12207:2026*; *ISO/IEC/IEEE 15289:2019*). Scores and evidence thresholds are local framework definitions.
+The domain references are ISO/IEC/IEEE 12207:2026 and 15289:2019 [1, 2]. Scores and evidence thresholds are local framework definitions.
 
 Use the domain definitions in the framework. Scores: 0 absent, 1 ad hoc, 2 defined, 3 verified in operation, 4 measured and improved. U means unassessed. NA requires an approved applicability rationale. Copy additional rows for each domain.
 
-Table 16
-
-T09 SDLC and documentation assessment
+**Table 16. T09 SDLC and documentation assessment**
 
 | **Profile and domain** | **Score** | **Evidence and sample** | **Gap and owner** |
 | --- | --- | --- | --- |
@@ -402,13 +386,11 @@ T09 SDLC and documentation assessment
 
 Complete the AI profile and profile calculations on the following page. Each level requires the applicable evidence described in the framework. Critical gaps remain visible regardless of the index.
 
-## **T09 AI assessment and profile summary**
+## T09 AI assessment and profile summary
 
 **Assessment context** [Same initiative, scope, dates, and assessor as the preceding assessment page]
 
-Table 17
-
-T09 AI assessment and profile summary
+**Table 17. T09 AI assessment and profile summary**
 
 | **Profile and domain** | **Score** | **Evidence and sample** | **Gap and owner** |
 | --- | --- | --- | --- |
@@ -417,9 +399,7 @@ T09 AI assessment and profile summary
 | AI evaluation and oversight | [0-4 U NA] | [Links N selection] | [Action owner date] |
 | AI treatment and continuity | [0-4 U NA] | [Links N selection] | [Action owner date] |
 
-Table 18
-
-T09 AI assessment and profile summary
+**Table 18. T09 AI assessment and profile summary**
 
 | **Profile** | **Score sum** | **Scored domains** | **Applicable domains** | **Index and coverage** |
 | --- | --- | --- | --- | --- |
@@ -433,11 +413,11 @@ Index is score sum divided by four times scored domains, multiplied by 100. Cove
 
 **Assessment decision and next review** [Record profile changes, action owner, evidence required, and review date]
 
-## **T10 AI use case and risk record**
+## T10 AI use case and risk record
 
 **Use case inventory** [Initiative; use case ID; tool and vendor; known model version; owner; phase; date]
 
-Tailor this record to the AI RMF and the generative AI profile where relevant (Tabassi; Autio et al.). The form is a local implementation tool.
+Tailor this record to the AI RMF and the generative AI profile where relevant [6, 8]. The form is a local implementation tool.
 
 **Context and affected people** [Task; benefit; users; affected customers or groups; prohibited uses]
 
@@ -445,9 +425,7 @@ Tailor this record to the AI RMF and the generative AI profile where relevant (T
 
 **Human oversight and fallback** [Approval boundary; responsible reviewer; override; provider outage or retirement plan]
 
-Table 19
-
-T10 AI use case and risk record
+**Table 19. T10 AI use case and risk record**
 
 | **Risk ID and scenario** | **Consequence and tolerance** | **Treatment and owner** | **Residual decision** |
 | --- | --- | --- | --- |
@@ -456,9 +434,7 @@ T10 AI use case and risk record
 | [ID unsafe action] | [Impact tolerance] | [Control owner date] | Not assessed |
 | [ID other relevant risk] | [Impact tolerance] | [Control owner date] | Not assessed |
 
-Table 20
-
-T10 AI use case and risk record
+**Table 20. T10 AI use case and risk record**
 
 | **Evaluation record** | **Result and evidence** |
 | --- | --- |
@@ -469,15 +445,13 @@ T10 AI use case and risk record
 
 **Risk authority decision** [Permitted scope; conditions; residual risk owner; exception expiry; next review]
 
-## **T11 Cost and benefit ledger**
+## T11 Cost and benefit ledger
 
 Copy a ledger row for every cost or benefit. Keep each amount on a consistent currency and economic or cash basis. Benefits require independent verification and overlap reconciliation before recognition.
 
 **Ledger context** [Initiative; phase; version; period; currency; cost basis; owner; cutoff]
 
-Table 21
-
-T11 Cost and benefit ledger
+**Table 21. T11 Cost and benefit ledger**
 
 | **ID** | **Type and category** | **Quantity and unit** | **Rate** | **Amount** | **State** |
 | --- | --- | --- | --- | --- | --- |
@@ -489,7 +463,7 @@ T11 Cost and benefit ledger
 | [ID] | [Benefit contribution] | [Qty unit] | [Rate] | [Value] | [Proposed verified] |
 | [ID] | [Capacity only] | [Hours] | [Rate] | [Value] | [Potential] |
 
-### **Evidence record for each ledger ID**
+### Evidence record for each ledger ID
 
 **Evidence and verifier** [Ledger ID; source; baseline or counterfactual; verification owner; date]
 
@@ -501,13 +475,11 @@ T11 Cost and benefit ledger
 
 Multiply quantity by rate only when appropriate to the category. Preserve directly evidenced totals where applicable. Do not recognize speculative avoided incidents as realized cash benefit. Retain negative and rejected rows.
 
-## **T11 Value summary and reconciliation**
+## T11 Value summary and reconciliation
 
 **Summary context** [Initiative; phase; version; period; currency; economic or cash basis; verifier]
 
-Table 22
-
-T11 Value summary and reconciliation
+**Table 22. T11 Value summary and reconciliation**
 
 | **Value component** | **Current period** | **Cumulative** | **Evidence** |
 | --- | --- | --- | --- |
@@ -532,15 +504,13 @@ T11 Value summary and reconciliation
 
 Only verified realized benefits enter realized ROI. A zero cost denominator makes ROI undefined. An unverified benefit remains pending. M03 can be negative.
 
-## **T12 Evaluation decision and improvement action**
+## T12 Evaluation decision and improvement action
 
 **Decision context** [Initiative; phase; version; scope; decision date; accountable authority]
 
 **Evidence reviewed** [Scorecards; metric versions; comparison; samples; value ledger; feedback; risk and maturity records]
 
-Table 23
-
-T12 Evaluation decision and improvement action
+**Table 23. T12 Evaluation decision and improvement action**
 
 | **Decision consideration** | **Finding and consequence** |
 | --- | --- |
@@ -553,9 +523,7 @@ T12 Evaluation decision and improvement action
 
 **Decision and rationale** [Expand, continue observing, adjust, discontinue, or restrict; name permitted scope]
 
-Table 24
-
-T12 Evaluation decision and improvement action
+**Table 24. T12 Evaluation decision and improvement action**
 
 | **Action** | **Owner and due date** | **Acceptance evidence** |
 | --- | --- | --- |
@@ -567,20 +535,22 @@ T12 Evaluation decision and improvement action
 
 **Next review and fallback** [Date; triggers; who acts; previous approved state; communication owner]
 
-## Works Cited
+## References and source notes
 
-"AI RMF Core." *NIST AI Resource Center*, National Institute of Standards and Technology, [https://airc.nist.gov/airmf-resources/airmf/5-sec-core/](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/). Accessed 23 Nov. 2026.
+References support the stated concepts. The framework’s metric extensions, value calculations, maturity scores, templates, and diagrams are local design choices. ISO references use public descriptions and abstracts rather than a clause by clause conformity assessment.
 
-Autio, Chloe, et al. *Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile*. NIST AI 600-1, National Institute of Standards and Technology, 26 July 2024, [https://doi.org/10.6028/NIST.AI.600-1](https://doi.org/10.6028/NIST.AI.600-1).
+[1] *ISO/IEC/IEEE 12207:2026: Systems and Software Engineering: Software Life Cycle Processes*. International Organization for Standardization, Apr. 2026, [https://www.iso.org/standard/90219.html](https://www.iso.org/standard/90219.html). Accessed 23 Nov. 2026.
 
-Harding, Paul. *Engineering Impact Framework*. Version 1.2, PolarSpark LLC, 23 Nov. 2026.
+[2] *ISO/IEC/IEEE 15289:2019: Systems and Software Engineering: Content of Life-Cycle Information Items (Documentation)*. International Organization for Standardization, July 2019, [https://www.iso.org/standard/74909.html](https://www.iso.org/standard/74909.html). Accessed 23 Nov. 2026.
 
-Harvey, Nathen. "DORA's Software Delivery Performance Metrics." *DORA*, Google Cloud, 5 Jan. 2026, [https://dora.dev/guides/dora-metrics/](https://dora.dev/guides/dora-metrics/). Accessed 23 Nov. 2026.
+[3] Harvey, Nathen. "DORA's Software Delivery Performance Metrics." *DORA*, Google Cloud, 5 Jan. 2026, [https://dora.dev/guides/dora-metrics/](https://dora.dev/guides/dora-metrics/). Accessed 23 Nov. 2026.
 
-*ISO/IEC/IEEE 12207:2026: Systems and Software Engineering: Software Life Cycle Processes*. International Organization for Standardization, Apr. 2026, [https://www.iso.org/standard/90219.html](https://www.iso.org/standard/90219.html). Accessed 23 Nov. 2026.
+[5] Schwaber, Ken, and Jeff Sutherland. *The Scrum Guide: The Definitive Guide to Scrum: The Rules of the Game*. Scrum Guides, Nov. 2020, [https://scrumguides.org/scrum-guide.html](https://scrumguides.org/scrum-guide.html). Accessed 23 Nov. 2026.
 
-*ISO/IEC/IEEE 15289:2019: Systems and Software Engineering: Content of Life-Cycle Information Items (Documentation)*. International Organization for Standardization, July 2019, [https://www.iso.org/standard/74909.html](https://www.iso.org/standard/74909.html). Accessed 23 Nov. 2026.
+[6] Tabassi, Elham. *Artificial Intelligence Risk Management Framework (AI RMF 1.0)*. NIST AI 100-1, National Institute of Standards and Technology, 26 Jan. 2023, [https://doi.org/10.6028/NIST.AI.100-1](https://doi.org/10.6028/NIST.AI.100-1).
 
-Schwaber, Ken, and Jeff Sutherland. *The Scrum Guide: The Definitive Guide to Scrum: The Rules of the Game*. Scrum Guides, Nov. 2020, [https://scrumguides.org/scrum-guide.html](https://scrumguides.org/scrum-guide.html). Accessed 23 Nov. 2026.
+[7] "AI RMF Core." *NIST AI Resource Center*, National Institute of Standards and Technology, [https://airc.nist.gov/airmf-resources/airmf/5-sec-core/](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/). Accessed 23 Nov. 2026.
 
-Tabassi, Elham. *Artificial Intelligence Risk Management Framework (AI RMF 1.0)*. NIST AI 100-1, National Institute of Standards and Technology, 26 Jan. 2023, [https://doi.org/10.6028/NIST.AI.100-1](https://doi.org/10.6028/NIST.AI.100-1).
+[8] Autio, Chloe, et al. *Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile*. NIST AI 600-1, National Institute of Standards and Technology, 26 July 2024, [https://doi.org/10.6028/NIST.AI.600-1](https://doi.org/10.6028/NIST.AI.600-1).
+
+[17] Paul Harding. *Engineering Impact Framework*. PolarSpark LLC, business white paper, version 1.3, 23 November 2026. [https://github.com/polarspark/engineering-impact-framework/blob/main/outputs/Engineering_Impact_Framework_Whitepaper.docx](https://github.com/polarspark/engineering-impact-framework/blob/main/outputs/Engineering_Impact_Framework_Whitepaper.docx).

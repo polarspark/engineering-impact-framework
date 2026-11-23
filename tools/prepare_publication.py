@@ -17,8 +17,11 @@ def inline(p):
             result.append('['+part.text+']('+part.url+')')
         else:
             t=part.text
-            if part.bold and t.strip(): t='**'+t+'**'
-            elif part.italic and t.strip(): t='*'+t+'*'
+            if t.strip() and (part.bold or part.italic):
+                leading=t[:len(t)-len(t.lstrip())]
+                trailing=t[len(t.rstrip()):]
+                marker='**' if part.bold else '*'
+                t=leading+marker+t.strip()+marker+trailing
             result.append(t)
     return ''.join(result).strip()
 
@@ -31,6 +34,9 @@ def export(stem,target):
             pictures=el.findall('.//'+qn('wp:docPr'))
             for pic in pictures:
                 name=pic.get('title','').lower().replace(' ','_')
+                if name=='polarspark_logo':
+                    chunks.append('<a href="https://polarspark.com/"><img src="../assets/brand/polar-spark-mark.png" width="70" alt="PolarSpark LLC company logo"></a>')
+                    continue
                 assert (ROOT/'assets'/'diagrams'/(name+'.png')).exists(),name
                 chunks.append('!['+pic.get('descr','Workflow diagram')+'](../assets/diagrams/'+name+'.png)')
             text=inline(p)
@@ -40,7 +46,7 @@ def export(stem,target):
                 text='#'*(int(p.style.name.split()[-1])+1)+' '+text
             elif p.style.name=='List Bullet': text='- '+text
             elif p.style.name=='List Number': text='1. '+text
-            elif text=='Works Cited': text='## Works Cited'
+            elif text=='References and source notes': text='## References and source notes'
             chunks.append(text)
         elif el.tag==qn('w:tbl'):
             t=Table(el,d)
@@ -51,13 +57,13 @@ def export(stem,target):
             chunks.append('\n'.join(rows))
     text='\n\n'.join(chunks)+'\n'
     assert 'Paul Harding, MBA ITM' in text and 'PolarSpark LLC' in text
-    assert 'https://' in text and 'Works Cited' in text
+    assert 'https://polarspark.com/' in text and 'References and source notes' in text
     (DOCS/target).write_text(text,encoding='utf-8')
 
 if __name__=='__main__':
     for stem,target in [
-       ('Engineering_Impact_Framework_MLA','framework.md'),
-       ('Engineering_Impact_Framework_Templates_MLA','templates.md'),
-       ('Engineering_Impact_Framework_Java_Workflow_MLA','java-workflow.md')]:
+       ('Engineering_Impact_Framework_Whitepaper','framework.md'),
+       ('Engineering_Impact_Framework_Workbook','templates.md'),
+       ('Engineering_Impact_Framework_Java_Workflow','java-workflow.md')]:
         export(stem,target)
         print(DOCS/target)

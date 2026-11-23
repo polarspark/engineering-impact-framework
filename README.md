@@ -1,22 +1,26 @@
 # Engineering Impact Framework
 
+<a href="https://polarspark.com/"><img src="assets/brand/polar-spark-mark.png" width="80" alt="PolarSpark company logo"></a>
+
 **Paul Harding, MBA ITM**
 
 **PolarSpark LLC**
 
-Version 1.2 | 23 November 2026
+[polarspark.com](https://polarspark.com/)
+
+Version 1.3 | Business white paper and implementation guides | 23 November 2026
 
 The Engineering Impact Framework (EIF) measures the value of adopting AI tools and changing software development workflows in normal application delivery. It uses three phases: **Baseline**, **Adoption**, and **Improvement**. Agile sprints provide the inspection cadence, while release, customer, and financial evidence can mature over longer observation windows.
 
 ## Documents
 
-| Document | Read on GitHub | Download the MLA Word edition |
+| Document | Read on GitHub | Download the business Word edition |
 | --- | --- | --- |
-| Framework: metric definitions, value calculations, maturity profiles, and NIST integration | [Framework](docs/framework.md) | [Framework DOCX](outputs/Engineering_Impact_Framework_MLA.docx) |
-| Reusable sprint scorecards, stakeholder feedback, and evidence records T01 through T12 | [Templates](docs/templates.md) | [Templates DOCX](outputs/Engineering_Impact_Framework_Templates_MLA.docx) |
-| Twenty page Java application workflow with tool examples and worked calculations | [Java workflow](docs/java-workflow.md) | [Java workflow DOCX](outputs/Engineering_Impact_Framework_Java_Workflow_MLA.docx) |
+| Business white paper: metric definitions, value calculations, maturity profiles, and NIST integration | [White paper](docs/framework.md) | [White paper DOCX](outputs/Engineering_Impact_Framework_Whitepaper.docx) |
+| Implementation workbook: sprint scorecards, stakeholder feedback, and evidence records T01 through T12 | [Workbook](docs/templates.md) | [Workbook DOCX](outputs/Engineering_Impact_Framework_Workbook.docx) |
+| Twenty page Java application workflow with tool examples and worked calculations | [Java workflow](docs/java-workflow.md) | [Java workflow DOCX](outputs/Engineering_Impact_Framework_Java_Workflow.docx) |
 
-The Word editions use MLA formatting, author and company identification, in-text citations, and Works Cited sections. The Markdown editions preserve their content for browsing and version review; Word controls pagination. Workflow diagrams have editable SVG sources and print resolution PNGs in [assets/diagrams](assets/diagrams).
+The current editions are business publications from PolarSpark LLC, with the official company logo, author credentials, company website, branded headers and footers, and numbered references. The white paper includes an executive summary and contents. The Markdown editions preserve their content for browsing and version review; Word controls pagination. Workflow diagrams have editable SVG sources and print resolution PNGs in [assets/diagrams](assets/diagrams). The logo source and provenance are in [assets/brand](assets/brand).
 
 ## Use the framework
 
@@ -36,7 +40,7 @@ The Java workflow follows an illustrative Spring Boot order service through impl
 
 ## Author
 
-Paul Harding, MBA ITM, PolarSpark LLC. The author credential follows the name displayed on [Paul Harding’s LinkedIn profile](https://www.linkedin.com/in/pauldkharding/), checked on 23 November 2026. No additional certifications are asserted.
+Paul Harding, MBA ITM, [PolarSpark LLC](https://polarspark.com/). The author credential follows the name displayed on [Paul Harding’s LinkedIn profile](https://www.linkedin.com/in/pauldkharding/), checked on 23 November 2026.
 
 ## Source and reproduction
 
@@ -46,7 +50,8 @@ Content and document builders are in [tools](tools). With Python and the package
 python tools/diagram_assets.py
 python tools/build_mla.py
 python tools/build_java_workflow.py
+python tools/build_business_editions.py
 python tools/prepare_publication.py
 ```
 
-The image builders use Windows Calibri and Times New Roman fonts. `export_word.ps1` renders documents through Microsoft Word on Windows. The original build was visually reviewed after rendering; inspect new renders after changing content or formatting. Generated QA images and temporary PDFs are excluded from the repository.
+The image builders use Windows Calibri and Times New Roman fonts. The first builders prepare the complete source editions; the business builder applies the current publication design. The official SVG and its print PNG are included, so regenerating the logo is optional. `prepare_brand.cjs` uses Sharp if regeneration is needed. Run `export_word.ps1 -Business` through Microsoft Word on Windows to update contents and render the current documents. The business editions were visually reviewed after rendering; inspect new renders after changing content or formatting. Generated QA images and temporary PDFs are excluded from the repository. Earlier editions remain available in Git history.

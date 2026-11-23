@@ -2,6 +2,6 @@ tmp/
 __pycache__/
 *.pyc
 outputs/*
-!outputs/Engineering_Impact_Framework_MLA.docx
-!outputs/Engineering_Impact_Framework_Templates_MLA.docx
-!outputs/Engineering_Impact_Framework_Java_Workflow_MLA.docx
+!outputs/Engineering_Impact_Framework_Whitepaper.docx
+!outputs/Engineering_Impact_Framework_Workbook.docx
+!outputs/Engineering_Impact_Framework_Java_Workflow.docx

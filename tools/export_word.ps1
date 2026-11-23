@@ -1,4 +1,4 @@
-param([switch]$TemplatesOnly,[switch]$Mla,[switch]$JavaOnly)
+param([switch]$TemplatesOnly,[switch]$Mla,[switch]$JavaOnly,[switch]$Business,[switch]$MainOnly)
 $ErrorActionPreference = 'Stop'
 $workspacePath = Split-Path -Parent $PSScriptRoot
 $word = New-Object -ComObject Word.Application
@@ -10,6 +10,9 @@ try {
     if ($TemplatesOnly) { $documentNames = @('Engineering_Impact_Framework_Templates') }
     if ($Mla) { $documentNames = $documentNames | ForEach-Object { $_ + '_MLA' } }
     if ($JavaOnly) { $documentNames = @('Engineering_Impact_Framework_Java_Workflow_MLA') }
+    if ($Business) { $documentNames = @('Engineering_Impact_Framework_Whitepaper','Engineering_Impact_Framework_Workbook','Engineering_Impact_Framework_Java_Workflow') }
+    if ($Business -and $TemplatesOnly) { $documentNames = @('Engineering_Impact_Framework_Workbook') }
+    if ($MainOnly) { $documentNames = @($documentNames[0]) }
     foreach ($name in $documentNames) {
         $documentPath = Join-Path $workspacePath "outputs\$name.docx"
         $renderPath = Join-Path $workspacePath "tmp\qa\$name"
