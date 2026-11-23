@@ -32,6 +32,14 @@ The current editions are business publications from PolarSpark LLC, with the off
 
 Keep delivery, quality, security, business outcomes, customer feedback where appropriate, and developer experience visible together. Recovered hours are capacity until a financial benefit is verified. Never use lines of code, prompt counts, or story points as individual productivity ratings or dollar value.
 
+## Implement EIF with an agent
+
+Use [agent.md](agent.md) as the agent's implementation instructions and [helper.md](helper.md) for the starter prompt, intake questions, evidence contracts, calculation checks, and report structure. The agent guides an organization through gathering data, establishing Baseline, implementing an authorized Adoption, generating measures, and evaluating Improvements.
+
+Point the agent at this repository as a **read-only reference** and select a separate organization-controlled workspace for the implementation. No organization data, application changes, survey responses, or generated reports should be submitted to this framework repository. These files guide a consumer engagement; they do not grant permission to contribute or publish here.
+
+Start with the [reusable implementation prompt](helper.md#start-an-implementation). The instructions support staged work and a resumable local record. They do not require a new tool purchase or a particular agent platform.
+
 ## Foundations and interpretation
 
 The framework draws on ISO/IEC/IEEE lifecycle and documentation references, DORA, SPACE, Scrum, NIST AI RMF, the NIST generative AI profile, and NIST SSDF. Detailed citations appear in each document. Public descriptions and abstracts were consulted for ISO standards. This is an original PolarSpark framework with proposed local metric extensions, formulas, maturity scoring, and forms. It does not establish certification or a clause by clause conformity assessment.
