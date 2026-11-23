@@ -1,0 +1,37 @@
+"""MLA source metadata and crosswalk for the Engineering Impact Framework."""
+REFERENCES = {
+ 'S1': ('*ISO/IEC/IEEE 12207:2026*', '*ISO/IEC/IEEE 12207:2026: Systems and Software Engineering: Software Life Cycle Processes*. International Organization for Standardization, Apr. 2026, https://www.iso.org/standard/90219.html. Accessed 23 Nov. 2026.'),
+ 'S2': ('*ISO/IEC/IEEE 15289:2019*', '*ISO/IEC/IEEE 15289:2019: Systems and Software Engineering: Content of Life-Cycle Information Items (Documentation)*. International Organization for Standardization, July 2019, https://www.iso.org/standard/74909.html. Accessed 23 Nov. 2026.'),
+ 'S3': ('Harvey', 'Harvey, Nathen. "DORA\'s Software Delivery Performance Metrics." *DORA*, Google Cloud, 5 Jan. 2026, https://dora.dev/guides/dora-metrics/. Accessed 23 Nov. 2026.'),
+ 'S4': ('Forsgren et al.', 'Forsgren, Nicole, et al. "The SPACE of Developer Productivity: There\'s More to It Than You Think." *ACM Queue*, vol. 19, no. 1, 2021, pp. 20-48. *Microsoft Research*, https://www.microsoft.com/en-us/research/publication/the-space-of-developer-productivity-theres-more-to-it-than-you-think/. Accessed 23 Nov. 2026.'),
+ 'S5': ('Schwaber and Sutherland', 'Schwaber, Ken, and Jeff Sutherland. *The Scrum Guide: The Definitive Guide to Scrum: The Rules of the Game*. Scrum Guides, Nov. 2020, https://scrumguides.org/scrum-guide.html. Accessed 23 Nov. 2026.'),
+ 'S6': ('Tabassi', 'Tabassi, Elham. *Artificial Intelligence Risk Management Framework (AI RMF 1.0)*. NIST AI 100-1, National Institute of Standards and Technology, 26 Jan. 2023, https://doi.org/10.6028/NIST.AI.100-1.'),
+ 'S7': ('"AI RMF Core"', '"AI RMF Core." *NIST AI Resource Center*, National Institute of Standards and Technology, https://airc.nist.gov/airmf-resources/airmf/5-sec-core/. Accessed 23 Nov. 2026.'),
+ 'S8': ('Autio et al.', 'Autio, Chloe, et al. *Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile*. NIST AI 600-1, National Institute of Standards and Technology, 26 July 2024, https://doi.org/10.6028/NIST.AI.600-1.'),
+ 'S9': ('Souppaya et al.', 'Souppaya, Murugiah, et al. *Secure Software Development Framework (SSDF) Version 1.1: Recommendations for Mitigating the Risk of Software Vulnerabilities*. NIST SP 800-218, National Institute of Standards and Technology, Feb. 2022, https://doi.org/10.6028/NIST.SP.800-218.'),
+ 'S10': ('Booth et al.', 'Booth, Harold, et al. *Secure Software Development Practices for Generative AI and Dual-Use Foundation Models: An SSDF Community Profile*. NIST SP 800-218A, National Institute of Standards and Technology, July 2024, https://doi.org/10.6028/NIST.SP.800-218A.'),
+ 'S11': ('"Publications"', '"Publications." *Secure Software Development Framework*, National Institute of Standards and Technology, https://csrc.nist.gov/Projects/ssdf/publications. Accessed 23 Nov. 2026.'),
+ 'GOVERN': ('"Govern"', '"Govern." *NIST AI Resource Center*, National Institute of Standards and Technology, https://airc.nist.gov/airmf-resources/playbook/govern/. Accessed 23 Nov. 2026.'),
+ 'MAP': ('"Map"', '"Map." *NIST AI Resource Center*, National Institute of Standards and Technology, https://airc.nist.gov/airmf-resources/playbook/map/. Accessed 23 Nov. 2026.'),
+ 'MEASURE': ('"Measure"', '"Measure." *NIST AI Resource Center*, National Institute of Standards and Technology, https://airc.nist.gov/airmf-resources/playbook/measure/. Accessed 23 Nov. 2026.'),
+ 'MANAGE': ('"Manage"', '"Manage." *NIST AI Resource Center*, National Institute of Standards and Technology, https://airc.nist.gov/airmf-resources/playbook/manage/. Accessed 23 Nov. 2026.'),
+ 'STATUS': ('"AI Risk Management Framework"', '"AI Risk Management Framework." *NIST*, https://www.nist.gov/itl/ai-risk-management-framework. Accessed 23 Nov. 2026.'),
+ 'HARDING': ('Harding', 'Harding, Paul. *Engineering Impact Framework*. Version 1.2, PolarSpark LLC, 23 Nov. 2026.'),
+}
+
+TABLE_TITLES = {
+ 'Framework structure and operating rules':['Framework Components and Their Purpose'],
+ 'Phase 2 Adoption and evaluation':['Adoption Evaluation Decisions'],
+ 'Ownership and sprint cadence':['Accountabilities and Evidence Ownership'],
+ 'Evidence model and data handling':['Minimum Evidence Records'],
+ 'Worked adoption value example':['Illustrative Delivery Comparison','Illustrative Eight Week Economic Ledger'],
+ 'Value ledger and sensitivity':['Illustrative Value Scenarios'],
+ 'Maturity scoring method':['Maturity Levels and Evidence Anchors'],
+ 'SDLC maturity profile':['SDLC Maturity Evidence by Domain'],
+ 'Documentation maturity profile':['Documentation Maturity Evidence by Domain'],
+ 'AI adoption maturity profile':['AI Adoption Maturity Evidence by Domain'],
+ 'NIST AI adoption integration':['Local Mapping of NIST AI RMF Functions Across Phases'],
+ 'AI risk evaluation and adoption decisions':['AI Risk Scenarios and Example Evidence'],
+ 'Implementation and reporting plan':['Operating Periods and Required Records'],
+ 'Framework version and adoption notes':['Framework Change Record'],
+}

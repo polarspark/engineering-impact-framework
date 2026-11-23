@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2100" height="1200" viewBox="0 0 2100 1200">
+<rect width="100%" height="100%" fill="white"/>
+<rect x="35" y="20" width="2030" height="115" rx="15" fill="#243746" stroke="#243746" stroke-width="3"/>
+<text x="1050" y="76.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="44" font-weight="700" fill="white">GOVERN  Policies permissions and accountability apply throughout</text>
+<rect x="35" y="210" width="525" height="200" rx="15" fill="#EEF5F5" stroke="#526875" stroke-width="3"/>
+<text x="297.5" y="262.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="46" font-weight="700" fill="#142631">Define task and limits</text>
+<text x="297.5" y="316.4" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Data and approved use</text>
+<text x="297.5" y="363.6" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Permissions and consequences</text>
+<rect x="790" y="210" width="525" height="200" rx="15" fill="#EEF5F5" stroke="#526875" stroke-width="3"/>
+<text x="1052.5" y="262.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="46" font-weight="700" fill="#142631">AI proposes changes</text>
+<text x="1052.5" y="316.4" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Code tests or documentation</text>
+<text x="1052.5" y="363.6" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Within the permitted scope</text>
+<rect x="1540" y="210" width="525" height="200" rx="15" fill="#EEF5F5" stroke="#526875" stroke-width="3"/>
+<text x="1802.5" y="262.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="46" font-weight="700" fill="#142631">Review and verify</text>
+<text x="1802.5" y="316.4" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Human review and required</text>
+<text x="1802.5" y="363.6" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">quality and security checks</text>
+<text x="297" y="165.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="700" fill="#16656B">MAP</text>
+<text x="1802" y="165.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="700" fill="#16656B">MEASURE</text>
+<polyline points="560,310 780,310" fill="none" stroke="#526875" stroke-width="6"/>
+<polygon points="780,310 759.5991167760765,320.6209210374541 759.5991167760765,299.3790789625459" fill="#526875"/>
+<polyline points="1315,310 1530,310" fill="none" stroke="#526875" stroke-width="6"/>
+<polygon points="1530,310 1509.5991167760765,320.6209210374541 1509.5991167760765,299.3790789625459" fill="#526875"/>
+<polyline points="1802,410 1802,520" fill="none" stroke="#526875" stroke-width="6"/>
+<polygon points="1802,520 1791.379078962546,499.59911677607647 1812.620921037454,499.59911677607647" fill="#526875"/>
+<polygon points="1802,525.0 2027.0,650 1802,775.0 1577.0,650" fill="#FFF7E8" stroke="#805813" stroke-width="4"/>
+<text x="1802" y="625.22" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="42" font-weight="700" fill="#142631">Evidence</text>
+<text x="1802" y="674.78" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="42" font-weight="700" fill="#142631">sufficient?</text>
+<rect x="790" y="545" width="525" height="210" rx="15" fill="#EEF5F5" stroke="#526875" stroke-width="3"/>
+<text x="1052.5" y="597.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="46" font-weight="700" fill="#142631">Release in scope</text>
+<text x="1052.5" y="656.4" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Required approval recorded</text>
+<text x="1052.5" y="703.6" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Use normal release controls</text>
+<rect x="35" y="545" width="525" height="210" rx="15" fill="#EEF5F5" stroke="#526875" stroke-width="3"/>
+<text x="297.5" y="597.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="46" font-weight="700" fill="#142631">Monitor and learn</text>
+<text x="297.5" y="656.4" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Incidents and feedback</text>
+<text x="297.5" y="703.6" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Inform the next adjustment</text>
+<text x="1052" y="805.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="700" fill="#16656B">MANAGE</text>
+<text x="297" y="805.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="700" fill="#16656B">MANAGE</text>
+<polyline points="1577,650 1325,650" fill="none" stroke="#16656B" stroke-width="6"/>
+<polygon points="1325,650 1345.4008832239235,639.3790789625459 1345.4008832239235,660.6209210374541" fill="#16656B"/>
+<text x="1445" y="605.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="700" fill="#16656B">Pass</text>
+<polyline points="790,650 570,650" fill="none" stroke="#16656B" stroke-width="6"/>
+<polygon points="570,650 590.4008832239235,639.3790789625459 590.4008832239235,660.6209210374541" fill="#16656B"/>
+<polyline points="1802,775 1802,930" fill="none" stroke="#805813" stroke-width="6"/>
+<polygon points="1802,930 1791.379078962546,909.5991167760765 1812.620921037454,909.5991167760765" fill="#805813"/>
+<text x="1802" y="855.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="700" fill="#805813">Fail or unknown</text>
+<rect x="1540" y="940" width="525" height="190" rx="15" fill="#F1F4F6" stroke="#526875" stroke-width="3"/>
+<text x="1802.5" y="992.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="46" font-weight="700" fill="#142631">Correct or fall back</text>
+<text x="1802.5" y="1041.4" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Record failed evidence</text>
+<text x="1802.5" y="1088.6" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Retain the approved scope</text>
+<polyline points="2065,1035 2085,1035 2085,175 2015,175 2015,200" fill="none" stroke="#805813" stroke-width="6"/>
+<polygon points="2015,200 2004.379078962546,179.59911677607647 2025.620921037454,179.59911677607647" fill="#805813"/>
+<text x="1050" y="1165.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="39" font-weight="400" fill="#142631">Incident or policy breaches trigger the existing response process immediately</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2100" height="650" viewBox="0 0 2100 650">
+<rect width="100%" height="100%" fill="white"/>
+<rect x="35" y="30" width="300" height="190" rx="15" fill="#EEF5F5" stroke="#526875" stroke-width="3"/>
+<text x="185.0" y="82.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="46" font-weight="700" fill="#142631">Commitment</text>
+<text x="185.0" y="131.4" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Work accepted</text>
+<text x="185.0" y="178.6" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">into delivery</text>
+<rect x="380" y="30" width="300" height="190" rx="15" fill="#EEF5F5" stroke="#526875" stroke-width="3"/>
+<text x="530.0" y="82.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="46" font-weight="700" fill="#142631">Develop</text>
+<text x="530.0" y="131.4" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Code and</text>
+<text x="530.0" y="178.6" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">documentation</text>
+<rect x="725" y="30" width="300" height="190" rx="15" fill="#EEF5F5" stroke="#526875" stroke-width="3"/>
+<text x="875.0" y="82.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="46" font-weight="700" fill="#142631">Review</text>
+<text x="875.0" y="131.4" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Human review</text>
+<text x="875.0" y="178.6" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">and correction</text>
+<rect x="1070" y="30" width="300" height="190" rx="15" fill="#EEF5F5" stroke="#526875" stroke-width="3"/>
+<text x="1220.0" y="82.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="46" font-weight="700" fill="#142631">Verify</text>
+<text x="1220.0" y="131.4" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Tests and</text>
+<text x="1220.0" y="178.6" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">security checks</text>
+<rect x="1415" y="30" width="300" height="190" rx="15" fill="#EEF5F5" stroke="#526875" stroke-width="3"/>
+<text x="1565.0" y="82.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="46" font-weight="700" fill="#142631">Production</text>
+<text x="1565.0" y="131.4" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Change available</text>
+<text x="1565.0" y="178.6" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">in the service</text>
+<rect x="1760" y="30" width="300" height="190" rx="15" fill="#EEF5F5" stroke="#526875" stroke-width="3"/>
+<text x="1910.0" y="82.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="46" font-weight="700" fill="#142631">Acceptance</text>
+<text x="1910.0" y="131.4" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Business outcome</text>
+<text x="1910.0" y="178.6" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">accepted</text>
+<polyline points="335,125 370,125" fill="none" stroke="#526875" stroke-width="5"/>
+<polygon points="370,125 349.59911677607647,135.6209210374541 349.59911677607647,114.37907896254589" fill="#526875"/>
+<polyline points="680,125 715,125" fill="none" stroke="#526875" stroke-width="5"/>
+<polygon points="715,125 694.5991167760765,135.6209210374541 694.5991167760765,114.37907896254589" fill="#526875"/>
+<polyline points="1025,125 1060,125" fill="none" stroke="#526875" stroke-width="5"/>
+<polygon points="1060,125 1039.5991167760765,135.6209210374541 1039.5991167760765,114.37907896254589" fill="#526875"/>
+<polyline points="1370,125 1405,125" fill="none" stroke="#526875" stroke-width="5"/>
+<polygon points="1405,125 1384.5991167760765,135.6209210374541 1384.5991167760765,114.37907896254589" fill="#526875"/>
+<polyline points="1715,125 1750,125" fill="none" stroke="#526875" stroke-width="5"/>
+<polygon points="1750,125 1729.5991167760765,135.6209210374541 1729.5991167760765,114.37907896254589" fill="#526875"/>
+<polyline points="185,310 1910,310" fill="none" stroke="#16656B" stroke-width="5"/>
+<polygon points="1910,310 1889.5991167760765,320.6209210374541 1889.5991167760765,299.3790789625459" fill="#16656B"/>
+<text x="1050" y="270.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="42" font-weight="700" fill="#16656B">M01  Commitment to the later of availability and acceptance</text>
+<polyline points="680,220 680,240" fill="none" stroke="#526875" stroke-width="4" stroke-dasharray="13 11"/>
+<polyline points="680,335 680,460" fill="none" stroke="#526875" stroke-width="4" stroke-dasharray="13 11"/>
+<text x="650" y="425.0" text-anchor="end" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="38" font-weight="400" fill="#142631">Code commit</text>
+<polyline points="680,470 1565,470" fill="none" stroke="#526875" stroke-width="5"/>
+<polygon points="1565,470 1544.5991167760765,480.6209210374541 1544.5991167760765,459.3790789625459" fill="#526875"/>
+<text x="1150" y="520.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="700" fill="#142631">M04  Code commit to successful production deployment</text>
+<text x="1050" y="610.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="39" font-weight="400" fill="#142631">Corrections and defects link back to the originating work and release</text>
+</svg>

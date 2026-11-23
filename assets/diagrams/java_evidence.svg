@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2100" height="840" viewBox="0 0 2100 840">
+<rect width="100%" height="100%" fill="white"/>
+<rect x="40" y="30" width="600" height="180" rx="15" fill="#EEF5F5" stroke="#526875" stroke-width="3"/>
+<text x="340.0" y="82.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="46" font-weight="700" fill="#142631">Customer and API</text>
+<text x="340.0" y="150.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Order submission and retry</text>
+<rect x="760" y="30" width="580" height="180" rx="15" fill="#EEF5F5" stroke="#526875" stroke-width="3"/>
+<text x="1050.0" y="82.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="46" font-weight="700" fill="#142631">Java order service</text>
+<text x="1050.0" y="150.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Spring Boot and PostgreSQL</text>
+<rect x="1460" y="30" width="600" height="180" rx="15" fill="#EEF5F5" stroke="#526875" stroke-width="3"/>
+<text x="1760.0" y="82.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="46" font-weight="700" fill="#142631">Runtime evidence</text>
+<text x="1760.0" y="150.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Traces, errors, latency</text>
+<polyline points="640,120 760,120" fill="none" stroke="#526875" stroke-width="6"/>
+<polygon points="760,120 739.5991167760765,130.6209210374541 739.5991167760765,109.37907896254589" fill="#526875"/>
+<polyline points="1340,120 1460,120" fill="none" stroke="#526875" stroke-width="6"/>
+<polygon points="1460,120 1439.5991167760765,130.6209210374541 1439.5991167760765,109.37907896254589" fill="#526875"/>
+<rect x="40" y="350" width="900" height="180" rx="15" fill="#F1F4F6" stroke="#526875" stroke-width="3"/>
+<text x="490.0" y="402.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="46" font-weight="700" fill="#142631">Delivery evidence</text>
+<text x="490.0" y="470.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Work, PR, CI, artifact and release IDs</text>
+<rect x="1160" y="350" width="900" height="180" rx="15" fill="#F1F4F6" stroke="#526875" stroke-width="3"/>
+<text x="1610.0" y="402.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="46" font-weight="700" fill="#142631">Outcome and cost evidence</text>
+<text x="1610.0" y="470.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Acceptance, defects, effort and ledger</text>
+<polyline points="1760,210 1760,280 1610,280 1610,350" fill="none" stroke="#526875" stroke-width="6"/>
+<polygon points="1610,350 1599.379078962546,329.59911677607647 1620.620921037454,329.59911677607647" fill="#526875"/>
+<rect x="570" y="670" width="960" height="140" rx="15" fill="#EEF5F5" stroke="#526875" stroke-width="3"/>
+<text x="1050.0" y="722.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="46" font-weight="700" fill="#142631">Sprint scorecard and decision</text>
+<text x="1050.0" y="770.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Join stable work and release identifiers</text>
+<polyline points="490,530 490,600 800,600 800,670" fill="none" stroke="#526875" stroke-width="6"/>
+<polygon points="800,670 789.3790789625459,649.5991167760765 810.6209210374541,649.5991167760765" fill="#526875"/>
+<polyline points="1610,530 1610,600 1300,600 1300,670" fill="none" stroke="#526875" stroke-width="6"/>
+<polygon points="1300,670 1289.379078962546,649.5991167760765 1310.620921037454,649.5991167760765" fill="#526875"/>
+</svg>

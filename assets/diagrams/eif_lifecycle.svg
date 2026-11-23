@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2100" height="600" viewBox="0 0 2100 600">
+<rect width="100%" height="100%" fill="white"/>
+<rect x="40" y="35" width="590" height="235" rx="15" fill="#EEF5F5" stroke="#526875" stroke-width="3"/>
+<text x="335.0" y="87.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="46" font-weight="700" fill="#142631">1  Baseline</text>
+<text x="335.0" y="158.9" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Record current delivery</text>
+<text x="335.0" y="206.1" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Define the expected change</text>
+<rect x="755" y="35" width="590" height="235" rx="15" fill="#EEF5F5" stroke="#526875" stroke-width="3"/>
+<text x="1050.0" y="87.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="46" font-weight="700" fill="#142631">2  Adoption</text>
+<text x="1050.0" y="158.9" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Introduce the change</text>
+<text x="1050.0" y="206.1" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Evaluate outcomes and cost</text>
+<rect x="1470" y="35" width="590" height="235" rx="15" fill="#EEF5F5" stroke="#526875" stroke-width="3"/>
+<text x="1765.0" y="87.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="46" font-weight="700" fill="#142631">3  Improvement</text>
+<text x="1765.0" y="158.9" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Adjust the workflow</text>
+<text x="1765.0" y="206.1" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Verify sustained benefit</text>
+<polyline points="630,153 745,153" fill="none" stroke="#526875" stroke-width="6"/>
+<polygon points="745,153 724.5991167760765,163.6209210374541 724.5991167760765,142.3790789625459" fill="#526875"/>
+<polyline points="1345,153 1460,153" fill="none" stroke="#526875" stroke-width="6"/>
+<polygon points="1460,153 1439.5991167760765,163.6209210374541 1439.5991167760765,142.3790789625459" fill="#526875"/>
+<polyline points="1765,270 1765,410 1050,410 1050,280" fill="none" stroke="#16656B" stroke-width="6"/>
+<polygon points="1050,280 1060.620921037454,300.40088322392353 1039.379078962546,300.40088322392353" fill="#16656B"/>
+<text x="1430" y="465.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="42" font-weight="700" fill="#16656B">Evaluate each new adjustment</text>
+<polyline points="335,270 335,535 2040,535" fill="none" stroke="#526875" stroke-width="4" stroke-dasharray="13 11"/>
+<text x="1190" y="570.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Retain the original baseline for cumulative comparison</text>
+</svg>

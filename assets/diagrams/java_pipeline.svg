@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2100" height="720" viewBox="0 0 2100 720">
+<rect width="100%" height="100%" fill="white"/>
+<rect x="30" y="40" width="450" height="190" rx="15" fill="#EEF5F5" stroke="#526875" stroke-width="3"/>
+<text x="255.0" y="92.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="46" font-weight="700" fill="#142631">Java PR</text>
+<text x="255.0" y="165.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Work ID and commit SHA</text>
+<polyline points="480,135 560,135" fill="none" stroke="#526875" stroke-width="6"/>
+<polygon points="560,135 539.5991167760765,145.6209210374541 539.5991167760765,124.37907896254589" fill="#526875"/>
+<rect x="560" y="40" width="450" height="190" rx="15" fill="#EEF5F5" stroke="#526875" stroke-width="3"/>
+<text x="785.0" y="92.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="46" font-weight="700" fill="#142631">Verify</text>
+<text x="785.0" y="165.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Build and configured tests</text>
+<polyline points="1010,135 1090,135" fill="none" stroke="#526875" stroke-width="6"/>
+<polygon points="1090,135 1069.5991167760765,145.6209210374541 1069.5991167760765,124.37907896254589" fill="#526875"/>
+<rect x="1090" y="40" width="450" height="190" rx="15" fill="#EEF5F5" stroke="#526875" stroke-width="3"/>
+<text x="1315.0" y="92.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="46" font-weight="700" fill="#142631">Security</text>
+<text x="1315.0" y="165.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Required scan and policy</text>
+<polyline points="1540,135 1620,135" fill="none" stroke="#526875" stroke-width="6"/>
+<polygon points="1620,135 1599.5991167760765,145.6209210374541 1599.5991167760765,124.37907896254589" fill="#526875"/>
+<rect x="1620" y="40" width="450" height="190" rx="15" fill="#EEF5F5" stroke="#526875" stroke-width="3"/>
+<text x="1845.0" y="92.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="46" font-weight="700" fill="#142631">Review</text>
+<text x="1845.0" y="141.4" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Human review</text>
+<text x="1845.0" y="188.6" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Evidence complete</text>
+<rect x="1180" y="410" width="890" height="190" rx="15" fill="#EEF5F5" stroke="#526875" stroke-width="3"/>
+<text x="1625.0" y="462.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="46" font-weight="700" fill="#142631">Controlled release</text>
+<text x="1625.0" y="535.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Artifact digest, availability and acceptance</text>
+<polyline points="1845,230 1845,410" fill="none" stroke="#526875" stroke-width="6"/>
+<polygon points="1845,410 1834.379078962546,389.59911677607647 1855.620921037454,389.59911677607647" fill="#526875"/>
+<rect x="30" y="410" width="890" height="190" rx="15" fill="#F1F4F6" stroke="#526875" stroke-width="3"/>
+<text x="475.0" y="462.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="46" font-weight="700" fill="#142631">Correct and repeat</text>
+<text x="475.0" y="535.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="400" fill="#142631">Retain failed results and correction effort</text>
+<polyline points="780,230 780,320 475,320 475,410" fill="none" stroke="#526875" stroke-width="6"/>
+<polygon points="475,410 464.3790789625459,389.59911677607647 485.6209210374541,389.59911677607647" fill="#526875"/>
+<polyline points="30,505 10,505 10,135 30,135" fill="none" stroke="#526875" stroke-width="6"/>
+<polygon points="30,135 9.599116776076464,145.6209210374541 9.599116776076464,124.37907896254589" fill="#526875"/>
+<text x="1050" y="320.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="38" font-weight="400" fill="#142631">Failed or missing check</text>
+<text x="1050" y="680.0" text-anchor="middle" dominant-baseline="central" font-family="Calibri,Arial,sans-serif" font-size="42" font-weight="700" fill="#142631">A missing required result prevents the normal release path</text>
+</svg>
